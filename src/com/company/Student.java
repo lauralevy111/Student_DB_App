@@ -10,7 +10,7 @@ public class Student {
     private String tuitionBalance;
     private int costOfCourse;
 
-    //TODO: constructor: prom uter to enter student's name + year
+    //TODO: constructor: prom user to enter student's name + year
 
     //TODO: generate an id
 
