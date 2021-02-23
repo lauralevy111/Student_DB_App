@@ -3,6 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        //TODO: Ask how many users we want to add
+
+        //TODO: create n number of new studnts
     }
 }
