@@ -32,6 +32,9 @@ public class Student {
     }
 
     //generate an id
+    private String setID() {
+        
+    }
 
     //TODO: enroll in courses
 
