@@ -11,6 +11,7 @@ public class Student {
     private String courses;
     private String tuitionBalance;
     private int costOfCourse = 600;
+    private int id = 1001;
 
     //constructor: prom user to enter student's name + year
     public Student(){
