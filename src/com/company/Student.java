@@ -37,7 +37,10 @@ public class Student {
 
     }
 
-    //TODO: enroll in courses
+    //enroll in courses
+    public void enroll() {
+        
+    }
 
     //TODO: view balance
 
