@@ -25,9 +25,8 @@ public class Student {
         System.out.println("1 - Freshmen\n2 - Sophmore\n3 - Junior\n4 - Senior\nEnter student class level: ");
         this.gradeYear = in.nextLine();
 
-        System.out.println(firstName + " " + lastName + " " + gradeYear);
-
-
+        setStudentID();
+        System.out.println(firstName + " " + lastName + " " + gradeYear + " " + studentID);
     }
 
     //generate an id
