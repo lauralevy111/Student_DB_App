@@ -9,7 +9,7 @@ public class Student {
     private String gradeYear;
     private String studentID;
     private String courses;
-    private String tuitionBalance;
+    private int tuitionBalance = 0;
     private static int costOfCourse = 600;
     private static int id = 1001;
 
