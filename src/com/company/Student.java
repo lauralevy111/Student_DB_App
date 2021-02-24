@@ -7,7 +7,7 @@ public class Student {
     private String firstName;
     private String lastName;
     private String gradeYear;
-    private int studentID;
+    private String studentID;
     private String courses;
     private String tuitionBalance;
     private static int costOfCourse = 600;
@@ -32,8 +32,10 @@ public class Student {
     }
 
     //generate an id
-    private String setID() {
-        
+    private void setStudentID() {
+        //grade level + id
+        this.studentID = gradeYear + "" + id;
+
     }
 
     //TODO: enroll in courses
