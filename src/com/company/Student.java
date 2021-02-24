@@ -10,8 +10,8 @@ public class Student {
     private int studentID;
     private String courses;
     private String tuitionBalance;
-    private int costOfCourse = 600;
-    private int id = 1001;
+    private static int costOfCourse = 600;
+    private static int id = 1001;
 
     //constructor: prom user to enter student's name + year
     public Student(){
