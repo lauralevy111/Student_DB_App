@@ -27,6 +27,8 @@ public class Student {
 
         System.out.println(firstName + " " + lastName + " " + gradeYear);
 
+        id++;
+
     }
 
     //generate an id
