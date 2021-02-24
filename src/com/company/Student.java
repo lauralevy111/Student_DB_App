@@ -27,12 +27,12 @@ public class Student {
 
         System.out.println(firstName + " " + lastName + " " + gradeYear);
 
-        id++;
 
     }
 
     //generate an id
     private void setStudentID() {
+        id++;
         //grade level + id
         this.studentID = gradeYear + "" + id;
 
