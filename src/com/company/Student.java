@@ -67,7 +67,7 @@ public class Student {
 
     //pay tuition
     public void payTuition(){
-        System.out.println("Enter payment amount: $ ");
+        System.out.print("Enter payment amount: $ ");
         Scanner  in = new Scanner(System.in);
         int payment = in.nextInt();
 
