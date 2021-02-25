@@ -69,6 +69,9 @@ public class Student {
 
     //pay tuition
     public void payTuition(){
+        Scanner  in = new Scanner(System.in);
+        int payment = in.nextInt();
+        
         tuitionBalance = tuitionBalance - payment;
         System.out.println("Thank you for your payment of $" + payment);
         viewBalance();
