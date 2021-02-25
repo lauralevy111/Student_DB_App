@@ -60,7 +60,10 @@ public class Student {
 
     }
 
-    //TODO: view balance
+    //view balance
+    public void viewBalance(){
+        System.out.println("your balance is : " + tuitionBalance);
+    }
 
     //TODO: pay tuition
 
