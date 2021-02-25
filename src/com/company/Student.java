@@ -34,7 +34,6 @@ public class Student {
         id++;
         //grade level + id
         this.studentID = gradeYear + "" + id;
-
     }
 
     //enroll in courses
@@ -52,12 +51,8 @@ public class Student {
             else { break; }
         } while (1 != 0);
 
-
-
         //System.out.println("ENROLLED IN: " + courses);
         //System.out.println("TUITION BALANCE: " + tuitionBalance);
-
-
     }
 
     //view balance
