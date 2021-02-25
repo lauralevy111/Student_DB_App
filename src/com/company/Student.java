@@ -74,6 +74,7 @@ public class Student {
     //show status
     public void showStatus() {
         String status= "name: "+firstName+" " + lastName +
+                "\nGrade: "+ gradeYear +
                 "\nCourses Enrolled: " + courses +
                 "\nBalance: $" + tuitionBalance;
         System.out.println(status) ;
