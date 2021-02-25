@@ -13,8 +13,6 @@ public class Student {
     private static int costOfCourse = 600;
     private static int id = 1001;
 
-    public int payment = 500;
-
     //constructor: prom user to enter student's name + year
     public Student(){
         Scanner in = new Scanner(System.in);
@@ -71,7 +69,7 @@ public class Student {
     public void payTuition(){
         Scanner  in = new Scanner(System.in);
         int payment = in.nextInt();
-        
+
         tuitionBalance = tuitionBalance - payment;
         System.out.println("Thank you for your payment of $" + payment);
         viewBalance();
