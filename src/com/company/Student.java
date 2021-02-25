@@ -76,6 +76,12 @@ public class Student {
         viewBalance();
     }
 
-    //TODO: show status
+    //show status
+    public String showStatus() {
+        String status= "name: "+firstName+" " + lastName +
+                "\nCourses Enrolled: " + courses +
+                "\nBalance: $" + tuitionBalance;
+        return status;
+    }
 
 }
