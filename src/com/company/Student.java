@@ -65,7 +65,12 @@ public class Student {
         System.out.println("your balance is : " + tuitionBalance);
     }
 
-    //TODO: pay tuition
+    //pay tuition
+    public void payTuition(int payment){
+        tuitionBalance = tuitionBalance - payment;
+        System.out.println("Thank you for your payment of $" + payment);
+        viewBalance();
+    }
 
     //TODO: show status
 
