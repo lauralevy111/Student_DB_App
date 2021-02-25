@@ -45,7 +45,7 @@ public class Student {
             String course = in.nextLine();
 
             if(!course.equalsIgnoreCase("Q")){
-                courses = courses + "\n" + course;
+                courses = courses + "\n   " + course;
                 tuitionBalance = tuitionBalance + costOfCourse;
             }
             else { break; }
@@ -57,7 +57,7 @@ public class Student {
 
     //view balance
     public void viewBalance(){
-        System.out.println("your balance is : " + tuitionBalance);
+        System.out.println("your balance is : $" + tuitionBalance);
     }
 
     //pay tuition
