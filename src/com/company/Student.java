@@ -26,7 +26,7 @@ public class Student {
         this.gradeYear = in.nextLine();
 
         setStudentID();
-        System.out.println(firstName + " " + lastName + " " + gradeYear + " " + studentID);
+        //System.out.println(firstName + " " + lastName + " " + gradeYear + " " + studentID);
     }
 
     //generate an id
@@ -54,8 +54,8 @@ public class Student {
 
 
 
-        System.out.println("ENROLLED IN: " + courses);
-        System.out.println("TUITION BALANCE: " + tuitionBalance);
+        //System.out.println("ENROLLED IN: " + courses);
+        //System.out.println("TUITION BALANCE: " + tuitionBalance);
 
 
     }
