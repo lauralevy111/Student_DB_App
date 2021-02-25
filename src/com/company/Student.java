@@ -77,11 +77,11 @@ public class Student {
     }
 
     //show status
-    public String showStatus() {
+    public void showStatus() {
         String status= "name: "+firstName+" " + lastName +
                 "\nCourses Enrolled: " + courses +
                 "\nBalance: $" + tuitionBalance;
-        return status;
+        System.out.println(status) ;
     }
 
 }
