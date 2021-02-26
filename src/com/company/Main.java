@@ -15,7 +15,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int numOfStudents = in.nextInt();
 
-
-        //TODO: create n number of new studnts
+        //create n number of new students
+        Student[] students = new Student[numOfStudents];
     }
 }
