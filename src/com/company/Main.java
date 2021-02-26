@@ -17,5 +17,8 @@ public class Main {
 
         //create n number of new students
         Student[] students = new Student[numOfStudents];
+        for(int n = 0; n < numOfStudents; n++) {
+
+        }
     }
 }
