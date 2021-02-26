@@ -14,14 +14,15 @@ public class Main {
         System.out.print("Enter nubmer of students to enroll: ");
         Scanner in = new Scanner(System.in);
         int numOfStudents = in.nextInt();
+        Student[] students = new Student[numOfStudents];
+
 
         //create n number of new students
-        Student[] students = new Student[numOfStudents];
         for(int n = 0; n < numOfStudents; n++) {
-            Student student = new Student();
-            student.enroll();
-            student.payTuition();
-            student.showStatus();
+            students[n] = new Student();
+            students[n].enroll();
+            students[n].payTuition();
+            students[n].showStatus();
 
         }
     }
