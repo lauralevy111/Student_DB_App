@@ -21,7 +21,7 @@ public class Main {
             Student student = new Student();
             student.enroll();
             student.payTuition();
-            System.out.println(student.showStatus());
+            student.showStatus();
 
         }
     }
