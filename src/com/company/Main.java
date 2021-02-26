@@ -7,6 +7,12 @@ public class Main {
         student1.enroll();
         student1.payTuition();
         student1.showStatus();
+
+        Student student2 = new Student();
+        student2.enroll();
+        student2.payTuition();
+        student2.showStatus();
+
         //TODO: Ask how many users we want to add
 
         //TODO: create n number of new studnts
