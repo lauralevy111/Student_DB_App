@@ -11,7 +11,7 @@ public class Main {
         student1.enroll();
         student1.payTuition();
         student1.showStatus();
-        
+
          */
 
         //Ask how many users we want to add
@@ -26,8 +26,11 @@ public class Main {
             students[n] = new Student();
             students[n].enroll();
             students[n].payTuition();
-            students[n].showStatus();
 
+        }
+        // print all students' data
+        for (Student student: students) {
+            student.showStatus();
         }
     }
 }
