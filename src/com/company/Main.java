@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,7 +10,11 @@ public class Main {
         student1.payTuition();
         student1.showStatus();
 
-        //TODO: Ask how many users we want to add
+        //Ask how many users we want to add
+        System.out.print("Enter nubmer of students to enroll: ");
+        Scanner in = new Scanner(System.in);
+        int numOfStudents = in.nextInt();
+
 
         //TODO: create n number of new studnts
     }
