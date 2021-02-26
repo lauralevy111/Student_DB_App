@@ -13,6 +13,11 @@ public class Main {
         student2.payTuition();
         student2.showStatus();
 
+        Student student3 = new Student();
+        student3.enroll();
+        student3.payTuition();
+        student3.showStatus();
+
         //TODO: Ask how many users we want to add
 
         //TODO: create n number of new studnts
